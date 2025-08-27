@@ -1,0 +1,152 @@
+
+Extracted offsets:
+    task_struct->tasks.next: 0x3f0
+    task_struct->state:      0x18
+    task_struct->pid:        0x4f8
+    task_struct->comm:       0x6d0
+    task_struct->mm:         0x440
+    mm_struct->pgd:          0x50
+
+Attributes found, skipping for now
+
+    task_struct->cred:       0x6c0
+    cred->uid                0x04
+
+0xffffffff82814940
+PID: 0 (swapper/0       ) State: 0x0 MM 0x0 UID 0x00
+Task struct @ 0xffffffff82814940 CR3 ([31m0x0000000000000000[39m)
+0xffff888003a18000
+PID: 1 (init            ) State: 0x1 MM 0xffff888003a64c00 UID 0x00
+Task struct @ 0xffff888003a18000 CR3 (0xffff88803f92e000         0x3f92e000)
+0xffff888003a18dc0
+PID: 2 (kthreadd        ) State: 0x1 MM 0x0 UID 0x00
+Task struct @ 0xffff888003a18dc0 CR3 ([31m0x0000000000000000[39m)
+0xffff888003a19b80
+PID: 3 (rcu_gp          ) State: 0x402 MM 0x0 UID 0x00
+Task struct @ 0xffff888003a19b80 CR3 ([31m0x0000000000000000[39m)
+0xffff888003a1a940
+PID: 4 (rcu_par_gp      ) State: 0x402 MM 0x0 UID 0x00
+Task struct @ 0xffff888003a1a940 CR3 ([31m0x0000000000000000[39m)
+0xffff888003a1b700
+PID: 5 (netns           ) State: 0x402 MM 0x0 UID 0x00
+Task struct @ 0xffff888003a1b700 CR3 ([31m0x0000000000000000[39m)
+0xffff888003a1c4c0
+PID: 6 (kworker/0:0     ) State: 0x402 MM 0x0 UID 0x00
+Task struct @ 0xffff888003a1c4c0 CR3 ([31m0x0000000000000000[39m)
+0xffff888003a1d280
+PID: 7 (kworker/0:0H    ) State: 0x402 MM 0x0 UID 0x00
+Task struct @ 0xffff888003a1d280 CR3 ([31m0x0000000000000000[39m)
+0xffff888003a1e040
+PID: 8 (kworker/u2:0    ) State: 0x402 MM 0x0 UID 0x00
+Task struct @ 0xffff888003a1e040 CR3 ([31m0x0000000000000000[39m)
+0xffff888003a1ee00
+PID: 9 (kworker/0:1H    ) State: 0x402 MM 0x0 UID 0x00
+Task struct @ 0xffff888003a1ee00 CR3 ([31m0x0000000000000000[39m)
+0xffff888003aa8000
+PID: 10 (mm_percpu_wq    ) State: 0x402 MM 0x0 UID 0x00
+Task struct @ 0xffff888003aa8000 CR3 ([31m0x0000000000000000[39m)
+0xffff888003aa8dc0
+PID: 11 (rcu_tasks_rude_ ) State: 0x1 MM 0x0 UID 0x00
+Task struct @ 0xffff888003aa8dc0 CR3 ([31m0x0000000000000000[39m)
+0xffff888003aa9b80
+PID: 12 (ksoftirqd/0     ) State: 0x1 MM 0x0 UID 0x00
+Task struct @ 0xffff888003aa9b80 CR3 ([31m0x0000000000000000[39m)
+0xffff888003aaa940
+PID: 13 (rcu_sched       ) State: 0x402 MM 0x0 UID 0x00
+Task struct @ 0xffff888003aaa940 CR3 ([31m0x0000000000000000[39m)
+0xffff888003aab700
+PID: 14 (migration/0     ) State: 0x1 MM 0x0 UID 0x00
+Task struct @ 0xffff888003aab700 CR3 ([31m0x0000000000000000[39m)
+0xffff888003aac4c0
+PID: 15 (cpuhp/0         ) State: 0x1 MM 0x0 UID 0x00
+Task struct @ 0xffff888003aac4c0 CR3 ([31m0x0000000000000000[39m)
+0xffff888003aad280
+PID: 16 (kdevtmpfs       ) State: 0x1 MM 0x0 UID 0x00
+Task struct @ 0xffff888003aad280 CR3 ([31m0x0000000000000000[39m)
+0xffff888003aae040
+PID: 17 (inet_frag_wq    ) State: 0x402 MM 0x0 UID 0x00
+Task struct @ 0xffff888003aae040 CR3 ([31m0x0000000000000000[39m)
+0xffff888003aaee00
+PID: 18 (kauditd         ) State: 0x1 MM 0x0 UID 0x00
+Task struct @ 0xffff888003aaee00 CR3 ([31m0x0000000000000000[39m)
+0xffff888003a50000
+PID: 19 (oom_reaper      ) State: 0x1 MM 0x0 UID 0x00
+Task struct @ 0xffff888003a50000 CR3 ([31m0x0000000000000000[39m)
+0xffff888003a50dc0
+PID: 20 (writeback       ) State: 0x402 MM 0x0 UID 0x00
+Task struct @ 0xffff888003a50dc0 CR3 ([31m0x0000000000000000[39m)
+0xffff888003a51b80
+PID: 21 (kcompactd0      ) State: 0x1 MM 0x0 UID 0x00
+Task struct @ 0xffff888003a51b80 CR3 ([31m0x0000000000000000[39m)
+0xffff888003b6d280
+PID: 43 (kblockd         ) State: 0x402 MM 0x0 UID 0x00
+Task struct @ 0xffff888003b6d280 CR3 ([31m0x0000000000000000[39m)
+0xffff888003b6e040
+PID: 44 (blkcg_punt_bio  ) State: 0x402 MM 0x0 UID 0x00
+Task struct @ 0xffff888003b6e040 CR3 ([31m0x0000000000000000[39m)
+0xffff888003b6c4c0
+PID: 45 (kworker/0:1     ) State: 0x402 MM 0x0 UID 0x00
+Task struct @ 0xffff888003b6c4c0 CR3 ([31m0x0000000000000000[39m)
+0xffff888003b6b700
+PID: 46 (ata_sff         ) State: 0x402 MM 0x0 UID 0x00
+Task struct @ 0xffff888003b6b700 CR3 ([31m0x0000000000000000[39m)
+0xffff888003b6a940
+PID: 47 (md              ) State: 0x402 MM 0x0 UID 0x00
+Task struct @ 0xffff888003b6a940 CR3 ([31m0x0000000000000000[39m)
+0xffff888003b69b80
+PID: 48 (kworker/u2:1    ) State: 0x402 MM 0x0 UID 0x00
+Task struct @ 0xffff888003b69b80 CR3 ([31m0x0000000000000000[39m)
+0xffff888003b68dc0
+PID: 49 (rpciod          ) State: 0x402 MM 0x0 UID 0x00
+Task struct @ 0xffff888003b68dc0 CR3 ([31m0x0000000000000000[39m)
+0xffff888003b68000
+PID: 50 (kworker/u3:0    ) State: 0x402 MM 0x0 UID 0x00
+Task struct @ 0xffff888003b68000 CR3 ([31m0x0000000000000000[39m)
+0xffff888003b6ee00
+PID: 51 (xprtiod         ) State: 0x402 MM 0x0 UID 0x00
+Task struct @ 0xffff888003b6ee00 CR3 ([31m0x0000000000000000[39m)
+0xffff888003a5ee00
+PID: 52 (cfg80211        ) State: 0x402 MM 0x0 UID 0x00
+Task struct @ 0xffff888003a5ee00 CR3 ([31m0x0000000000000000[39m)
+0xffff888003a5e040
+PID: 53 (kworker/u2:2    ) State: 0x402 MM 0x0 UID 0x00
+Task struct @ 0xffff888003a5e040 CR3 ([31m0x0000000000000000[39m)
+0xffff888003a5d280
+PID: 54 (kswapd0         ) State: 0x1 MM 0x0 UID 0x00
+Task struct @ 0xffff888003a5d280 CR3 ([31m0x0000000000000000[39m)
+0xffff888003a5c4c0
+PID: 55 (nfsiod          ) State: 0x402 MM 0x0 UID 0x00
+Task struct @ 0xffff888003a5c4c0 CR3 ([31m0x0000000000000000[39m)
+0xffff888003a5b700
+PID: 57 (acpi_thermal_pm ) State: 0x402 MM 0x0 UID 0x00
+Task struct @ 0xffff888003a5b700 CR3 ([31m0x0000000000000000[39m)
+0xffff888003a5a940
+PID: 58 (scsi_eh_0       ) State: 0x1 MM 0x0 UID 0x00
+Task struct @ 0xffff888003a5a940 CR3 ([31m0x0000000000000000[39m)
+0xffff888003a59b80
+PID: 59 (scsi_tmf_0      ) State: 0x402 MM 0x0 UID 0x00
+Task struct @ 0xffff888003a59b80 CR3 ([31m0x0000000000000000[39m)
+0xffff888003a58dc0
+PID: 60 (scsi_eh_1       ) State: 0x1 MM 0x0 UID 0x00
+Task struct @ 0xffff888003a58dc0 CR3 ([31m0x0000000000000000[39m)
+0xffff888003a58000
+PID: 61 (scsi_tmf_1      ) State: 0x402 MM 0x0 UID 0x00
+Task struct @ 0xffff888003a58000 CR3 ([31m0x0000000000000000[39m)
+0xffff888003a56e00
+PID: 62 (kworker/0:2     ) State: 0x402 MM 0x0 UID 0x00
+Task struct @ 0xffff888003a56e00 CR3 ([31m0x0000000000000000[39m)
+0xffff888003a56040
+PID: 63 (mld             ) State: 0x402 MM 0x0 UID 0x00
+Task struct @ 0xffff888003a56040 CR3 ([31m0x0000000000000000[39m)
+0xffff888003a55280
+PID: 64 (ipv6_addrconf   ) State: 0x402 MM 0x0 UID 0x00
+Task struct @ 0xffff888003a55280 CR3 ([31m0x0000000000000000[39m)
+0xffff88803fa40dc0
+PID: 86 (syslogd         ) State: 0x1 MM 0xffff888003a64800 UID 0x00
+Task struct @ 0xffff88803fa40dc0 CR3 (0xffff88803f9d0000         0x3f9d0000)
+0xffff88803fa43700
+PID: 90 (klogd           ) State: 0x1 MM 0xffff888003a65000 UID 0x00
+Task struct @ 0xffff88803fa43700 CR3 (0xffff88803f9d2000         0x3f9d2000)
+0xffff88803fa41b80
+PID: 109 (getty           ) State: 0x1 MM 0xffff88803f9da000 UID 0x00
+Task struct @ 0xffff88803fa41b80 CR3 (0xffff88803f92c000         0x3f92c000)

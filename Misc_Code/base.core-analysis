@@ -1,0 +1,33 @@
+INFO  Using log config file: jar:file:/ghidra_10.0.4_PUBLIC/Ghidra/Framework/Generic/lib/Generic.jar!/generic.log4j.xml (LoggingInitialization)  
+INFO  Using log file: /root/.ghidra/.ghidra_10.0.4_PUBLIC/application.log (LoggingInitialization)  
+INFO  Loading user preferences: /root/.ghidra/.ghidra_10.0.4_PUBLIC/preferences (Preferences)  
+INFO  Class search complete (810 ms) (ClassSearcher)  
+INFO  Initializing SSL Context (SSLContextInitializer)  
+INFO  Initializing Random Number Generator... (SecureRandomFactory)  
+INFO  Random Number Generator initialization complete: NativePRNGNonBlocking (SecureRandomFactory)  
+INFO  Trust manager disabled, cacerts have not been set (ApplicationTrustManagerFactory)  
+INFO  HEADLESS Script Paths:
+    /ghidra_10.0.4_PUBLIC/Ghidra/Processors/8051/ghidra_scripts
+    /katana/pcode/.
+    /ghidra_10.0.4_PUBLIC/Ghidra/Features/FileFormats/ghidra_scripts
+    /ghidra_10.0.4_PUBLIC/Ghidra/Features/Python/ghidra_scripts
+    /ghidra_10.0.4_PUBLIC/Ghidra/Features/BytePatterns/ghidra_scripts
+    /ghidra_10.0.4_PUBLIC/Ghidra/Features/Decompiler/ghidra_scripts
+    /ghidra_10.0.4_PUBLIC/Ghidra/Features/VersionTracking/ghidra_scripts
+    /ghidra_10.0.4_PUBLIC/Ghidra/Features/GnuDemangler/ghidra_scripts
+    /ghidra_10.0.4_PUBLIC/Ghidra/Processors/DATA/ghidra_scripts
+    /ghidra_10.0.4_PUBLIC/Ghidra/Processors/PIC/ghidra_scripts
+    /ghidra_10.0.4_PUBLIC/Ghidra/Features/Base/ghidra_scripts
+    /ghidra_10.0.4_PUBLIC/Ghidra/Features/MicrosoftCodeAnalyzer/ghidra_scripts
+    /ghidra_10.0.4_PUBLIC/Ghidra/Features/FunctionID/ghidra_scripts
+    /ghidra_10.0.4_PUBLIC/Ghidra/Debug/Debugger-agent-dbgmodel-traceloader/ghidra_scripts
+    /ghidra_10.0.4_PUBLIC/Ghidra/Debug/Debugger/ghidra_scripts (HeadlessAnalyzer)  
+INFO  HEADLESS: execution starts (HeadlessAnalyzer)  
+INFO  Creating temporary project: /tmp/tmp.rfrl79iEYj/automated-analysis (HeadlessAnalyzer)  
+INFO  Creating project: /tmp/tmp.rfrl79iEYj/automated-analysis (DefaultProject)  
+INFO  REPORT: Processing input files:  (HeadlessAnalyzer)  
+INFO       project: /tmp/tmp.rfrl79iEYj/automated-analysis (HeadlessAnalyzer)  
+INFO  IMPORTING: /mnt/base.core (HeadlessAnalyzer)  
+INFO  Successfully applied "-loader-baseAddr" to "Base Address" (old: "null", new: "0x0") (AutoImporter)  
+INFO  REPORT: Import succeeded with language "x86:LE:64:default" and cspec "gcc" for file: /mnt/base.core (HeadlessAnalyzer)  
+INFO  SCRIPT: /katana/pcode/main.py (HeadlessAnalyzer)  

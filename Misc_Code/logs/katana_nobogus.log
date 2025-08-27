@@ -1,0 +1,25 @@
+
+Extracted offsets:
+    task_struct->tasks.next: 0x3e8
+    task_struct->state:      0x18
+    task_struct->pid:        0x4f0
+    task_struct->comm:       0x08
+    task_struct->mm:         0x438
+    mm_struct->pgd:          0x50
+
+Attributes found, skipping for now
+
+    task_struct->cred:       0x6b8
+    cred->uid                0x04
+
+0xffffffff82614580
+PID: 0 (                ) State: 0x0 MM 0x0 UID 0x00
+Task struct @ 0xffffffff82614580 CR3 ([31m0x0000000000000000[39m)
+0xe0ade7347b67045e
+Traceback (most recent call last):
+  File "/katana/list_procs.py", line 88, in <module>
+    mm = pointer(view.get_virt(cur + mm_off, view.pointer_size))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/katana/elfview.py", line 298, in get_virt
+    raise NotMapped("NotMapped: Virtual Address - 0x{:016x}".format(addr))
+elfview.NotMapped: NotMapped: Virtual Address - 0xe0ade7347b670896
